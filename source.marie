@@ -1,0 +1,23 @@
+Clear
+Store A
+Input
+Store B
+Input
+Store C
+Load B : Top
+Subt C
+Skipcond 10
+Jump Done
+Load A
+Add B
+Store A
+Load C
+Add One
+Store C
+Load B
+Subt Two
+Store B
+Jump Top
+Load A : Done
+Output
+Halt
